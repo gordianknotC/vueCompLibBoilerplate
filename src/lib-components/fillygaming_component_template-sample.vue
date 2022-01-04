@@ -11,7 +11,7 @@ interface SampleData {
 }
 
 export default /*#__PURE__*/defineComponent({
-  name: 'Fillygaming_component_templateSample', // vue component name
+  name: 'TempComp', // vue component name
   data(): SampleData {
     return {
       counter: 5,

@@ -1,6 +1,6 @@
 {
-  "name": "fillygaming_component_template",
-  "version": "1.0.0",
+  "name": "@curtischang/vueplugin_template",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/fillygaming_component_template.ssr.js",
   "browser": "dist/fillygaming_component_template.esm.js",
@@ -49,8 +49,13 @@
     "rollup-plugin-vue": "^6.0.0",
     "rollup-plugin-typescript2": "^0.30.0",
     "ttypescript": "^1.5.12",
-    "typescript": "^4.0.3",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "~4.1.5"
+
   },
   "peerDependencies": {
     "vue": "^3.0.5"
