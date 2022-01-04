@@ -15,12 +15,21 @@ group name: curtischang
 
 package name: vueplugin_template
 
+project id: 408
 
 ```bash
+# To authenticate with the Package Registry
+#
+# Set URL for your scoped packages.
+# For example package with name `@foo/bar` will use this URL for download
+npm config set @curtischang:registry https://gitlab.dcedx.com/api/v4/projects/408/packages/npm/
 
-npm config set @curtischang:registry https://gitlab.dcedx.com/api/v4/packages/npm
+# Add the token for the scoped packages URL. Replace <your_project_id>
+# with the project where your package is located.
+npm config set -- '//gitlab.dcedx.com/api/v4/projects/408/packages/npm/:_authToken' "Z7wYokEenxFeJivJup6M"
 
-npm config set -- '//gitlab.dcedx.com/api/v4/packages/npm/:_authToken' "Z7wYokEenxFeJivJup6M"
+
+
 
 
 ```
