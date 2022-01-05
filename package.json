@@ -1,5 +1,5 @@
 {
-  "name": "@curtischang/vueplugin_template",
+  "name": "@gordianknot/vue_comp_lib_boilerplate",
   "version": "0.0.1",
   "description": "",
   "main": "dist/fillygaming_component_template.ssr.js",
@@ -63,11 +63,19 @@
   "engines": {
     "node": ">=12"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordianknotC/vueCompLibBoilerplate.git"
+  },
+  "author": "Gordiaknot",
   "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
-  ]
+  ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
