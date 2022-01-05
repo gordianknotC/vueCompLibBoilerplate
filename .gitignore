@@ -5,7 +5,6 @@ node_modules
 /production
 /release
 
-
 # local env files
 .env.local
 .env.*.local
