@@ -1,6 +1,6 @@
 {
   "name": "@gordianknot/vue_comp_lib_boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "https://docs.github.com/en/packages/learn-github-packages/publishing-a-package https://github.com/Codertocat/hello-world-npm",
   "main": "dist/fillygaming_component_template.ssr.js",
   "browser": "dist/fillygaming_component_template.esm.js",
