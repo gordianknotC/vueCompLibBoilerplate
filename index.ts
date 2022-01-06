@@ -1,3 +1,4 @@
+import * as comps from '@/lib-components/index';
 export { default } from 'src/entry';
-export * as components from '@/lib-components/index';
+export const components = comps;
 
