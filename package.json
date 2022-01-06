@@ -1,6 +1,6 @@
 {
   "name": "@gordianknot/vue_comp_lib_boilerplate",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "https://docs.github.com/en/packages/learn-github-packages/publishing-a-package https://github.com/Codertocat/hello-world-npm",
   "main": "dist/sample.ssr.js",
   "browser": "dist/sample.esm.js",
