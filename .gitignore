@@ -1,9 +1,6 @@
 .DS_Store
-node_modules
-/dist
-/develop
-/production
-/release
+node_modules/
+/dist/
 
 # local env files
 .env.local
@@ -13,9 +10,6 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-.npmrc
-.yarnrc.yml
 
 # Editor directories and files
 .idea
@@ -24,4 +18,4 @@ pnpm-debug.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw*

@@ -2,16 +2,18 @@
   "name": "@gordianknot/vue_comp_lib_boilerplate",
   "version": "0.0.2",
   "description": "https://docs.github.com/en/packages/learn-github-packages/publishing-a-package https://github.com/Codertocat/hello-world-npm",
-  "main": "dist/fillygaming_component_template.ssr.js",
-  "browser": "dist/fillygaming_component_template.esm.js",
-  "module": "dist/fillygaming_component_template.esm.js",
-  "unpkg": "dist/fillygaming_component_template.min.js",
+  "main": "dist/sample.ssr.js",
+  "browser": "dist/sample.esm.js",
+  "module": "dist/sample.esm.js",
+  "unpkg": "dist/sample.min.js",
   "types": "dist/types/src/entry.esm.d.ts",
+
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
+
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
     "prebuild": "rimraf ./dist",
@@ -68,7 +70,7 @@
     {
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
+  }
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

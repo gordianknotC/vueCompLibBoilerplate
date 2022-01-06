@@ -92,7 +92,7 @@ if (!argv.format || argv.format === 'es') {
     input: 'src/entry.esm.ts',
     external,
     output: {
-      file: 'dist/fillygaming_component_template.esm.js',
+      file: 'dist/temp.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -131,9 +131,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/fillygaming_component_template.ssr.js',
+      file: 'dist/temp.ssr.js',
       format: 'cjs',
-      name: 'Fillygaming_component_template',
+      name: 'Temp',
       exports: 'auto',
       globals,
     },
@@ -154,9 +154,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/fillygaming_component_template.min.js',
+      file: 'dist/temp.min.js',
       format: 'iife',
-      name: 'Fillygaming_component_template',
+      name: 'Temp',
       exports: 'auto',
       globals,
     },
