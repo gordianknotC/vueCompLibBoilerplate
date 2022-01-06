@@ -17,4 +17,7 @@
 - git commit
 - git new tag
 - git push
-- 第三方引用時，tag 更新為最新的版本
+
+**如需要於組件庫內加入其他套件，需考慮 peer dependency （於 package.json 註明)**
+
+第三方引用時，tag 須為最新版本
