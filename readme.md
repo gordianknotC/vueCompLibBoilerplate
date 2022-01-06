@@ -34,5 +34,5 @@
 }
 ```
 上述設定為:
-    branchname: develop
-    tagname: v0.0.10+2
+- branchname: develop
+- tagname: v0.0.10+2
